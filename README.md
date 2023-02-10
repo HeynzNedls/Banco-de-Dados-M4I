@@ -12,7 +12,7 @@ Sim, são elas: Unidades e Professores
 ⇨ Como essas entidades estão relacionadas?    
 
 Resposta:
-As entidades estão relacionadas de forma que um professor tem varias turmas; um aluno tem varios cursos,logo, um aluno tem varias turmas; uma turma tem varios alunos e uma turma tem varios professores; um curso tem varias turmas e um curso tem varias unidades; uma unidade tem varios cursos.
+As entidades estão relacionadas de forma que um professor tem varias turmas, um aluno tem varios cursos ,logo um aluno tem varias turmas, uma turma tem varios alunos e uma turma tem varios professores, um curso tem varias turmas e um curso tem varias unidades, uma unidade tem varios cursos.
 
 
 ⇨ Quais são os principais campos e tipos?     
