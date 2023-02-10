@@ -12,11 +12,11 @@ Sim, são elas: Unidades e Professores
 ⇨ Como essas entidades estão relacionadas?    
 
 Resposta:
-
 As entidades estão relacionadas de forma que um professor tem varias turmas; um aluno tem varios cursos,logo, um aluno tem varias turmas; uma turma tem varios alunos e uma turma tem varios professores; um curso tem varias turmas e um curso tem varias unidades; uma unidade tem varios cursos.
 
 
 ⇨ Quais são os principais campos e tipos?     
 Resposta:
 Isso depende do que você deseja armazenar em cada entidade, por exemplo:
+
 ![](https://github.com/HeynzNedls/Banco-de-Dados-M4I/blob/d4b223787efe31b07a2e73de165bccd6208dca12/SQL/diagrama.png)
