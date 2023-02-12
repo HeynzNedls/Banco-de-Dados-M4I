@@ -62,13 +62,13 @@ FOREIGN KEY(cursos_id) REFERENCES cursos(id)
 
 INSERT INTO alunos (nome, cpf, sexo, contato, cep, email, nascimento)
 VALUES
-('Peter Parker', '1112223334445', 'M', '11 11111-2222', '11122233', 'peterparker@email.com', '2000-05-05'),
-('Mary Jane', '2223334444555', 'F', '22 22222-3333', '22233344', 'maryjane@email.com', '1999-07-07');
+('Aluno 1', '1111111111111', 'M', '11 11111-1111', '11111111', 'aluno.1@gmail.com', '28-04-2002'),
+('Aluno 2', '2222222222222', 'F', '22 22222-2222', '22222222', 'aluno_2@hotmail.com', '29-10-2004');
 
 INSERT INTO professores (nome, cpf, sexo, contato, cep, email, nascimento)
 VALUES
-('Dr. Strange', '3334445556666', 'M', '33 33333-4444', '33344455', 'drstrange@email.com', '1969-12-13'),
-('Prof. X', '4445556666777', 'M', '44 44444-5555', '44455566', 'profx@email.com', '1960-07-14');
+('Professor 1', '3333333333333', 'M', '33 33333-3333', '33333333', 'professor.1@hotmail.com', '02-01-1974'),
+('Professor 2', '4444444444444', 'F', '44 44444-4444', '44444444', 'professor_2@gmail.com', '05-06-1957');
 
 INSERT INTO turmas (nome, turno, numero_de_alunos, aluno_id, professor_id)
 VALUES
@@ -77,11 +77,10 @@ VALUES
 
 INSERT INTO cursos (nome, descricao, data_comeco, data_termino, turmas_id)
 VALUES
-('History 101', 'Intro to History', '2022-03-01', '2022-11-30', 1),
-('English 102', 'Intro to English', '2022-04-01', '2022-08-31', 2);
+('Front 105', 'Front-End', '2022-03-01', '2023-05-30', 1),
+('Back 103', 'Back-End', '2022-04-01', '2023-06-31', 2);
 
 INSERT INTO unidades (nome, cep, cursos_id)
 VALUES
 ('Campus C', '22233344', 1),
 ('Campus D', '44455566', 2);
-
