@@ -19,4 +19,4 @@ As entidades estão relacionadas de forma que Uma turma tem varios professores e
 Resposta:
 Isso depende do que você deseja armazenar em cada entidade, por exemplo:
 
-![](https://github.com/HeynzNedls/Banco-de-Dados-M4I/blob/9aff7784540d7e51c266147298ce9c878f5bb002/SQL/diagram.png)
+![](https://github.com/HeynzNedls/Banco-de-Dados-M4I/blob/bce8b7e1f87f406d95e7b076e26906fe3590bee7/SQL/diagram.png)
